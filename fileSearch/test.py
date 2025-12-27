@@ -1,3 +1,4 @@
-import os
+x = list((tuple(input())))
 
-print(os.listdir("/home/revenant/Github/Python/fileSearch"))
+
+print(x)

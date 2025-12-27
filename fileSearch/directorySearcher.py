@@ -22,7 +22,7 @@ def browseFile(PATH):
                 fileData["files"].append(fileName)
     return fileData
 
-targetDir = "/home/revenant/zapret-v72.2" #aranacak dizin
+targetDir = "/home/revenant/Github/Python/" #aranacak dizin
 jsonFileName = "directory.json" #json ismi
 
 fileData = browseFile(targetDir)
